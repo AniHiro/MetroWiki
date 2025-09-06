@@ -1,0 +1,104 @@
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    background: #222;
+    z-index: 1000;
+
+    &__logo img {
+        height: 70px;
+        transition: transform 0.3 ease;
+    }
+
+    &__logo img:hover {
+        transform: scale(1.05);
+    }
+
+    &__nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    &__item {
+        position: relative;
+
+        &:hover .header__submenu {
+            display: flex;
+        }
+    }
+
+    &__link {
+        color: #ddd;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &__submenu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #333;
+        padding: 0.5rem 0;
+        border-radius: 5px;
+        min-width: 200px;
+        z-index: 10;
+    }
+
+    &__sublink {
+        color: #ddd;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: background 0.2s ease;
+
+        &:hover {
+            background: #444;
+            color: #fff;
+        }
+    }
+
+    &--home {
+        background: #111;
+
+        .header__logo img {
+            height: 90px;
+        }
+    }
+
+    &--metro2033 {
+        background: #1a1a1a;
+
+        .header__logo img {
+            height: 90px;
+        }
+    }
+
+    &--lastlight {
+        background: #101820;
+
+        .header__logo img {
+            height: 90px;
+        }
+    }
+
+    &--exodus {
+        background: #2a1f14;
+
+        .header__logo img {
+            height: 90px;
+        }
+    }
+}

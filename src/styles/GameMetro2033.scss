@@ -1,0 +1,85 @@
+.game-container {
+    padding: 2rem;
+    color: #eee;
+    background-color: #111;
+}
+
+.hero-slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+
+    &_media {
+        width: 100%;
+        aspect-radio: 16 / 9;
+        border-radius: 8px;
+        display: block;
+    }
+
+    &__control {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        border: none;
+        color: #fff;
+        font-size: 2rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .prev { left: 0.5rem; }
+    .next { right: 0.5rem;}
+
+    &__dots {
+        text-align: center;
+        margin-top: 0.5rem;
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            background: #555;
+            border-radius: 50%;
+            border: none;
+            margin: 0 4px;
+            cursor: pointer;
+
+            &.active { background: #ff4;}
+        }
+    }
+}
+
+.news, .about {
+    max-width: 800px;
+    margin: 2rem auto;
+
+    h2{
+        margin-bottom: 1rem;
+        border-bottom: 2px solid rgb(255, 0, 0);
+        padding-bottom:  0.5rem;
+    }
+
+    h3 {
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+        font-size: 1.3rem;
+        color: #ff4444;
+    }
+
+    p {
+        line-height: 1.6;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+        margin: 1rem 0;
+        padding-left: 1.5rem;
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+            list-style: disc;
+        }
+    }
+}

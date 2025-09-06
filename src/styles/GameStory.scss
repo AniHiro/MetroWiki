@@ -1,0 +1,131 @@
+.story-page {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .story-content {
+        flex: 1;
+        max-width: 800px;
+        text-align: center;
+
+        h1 {
+            font-size: 2.4rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 80px;
+            padding-bottom: 40px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+            h2 {
+                margin-top: 2rem;
+                font-size: 1.5rem;
+                border-bottom: 2px solid rgb(255, 0, 0);
+                padding-bottom: 0.5rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                margin-top: 20px;
+                text-align: justify;
+            }
+
+            .story-list {
+                padding: 12px 16px;
+                border-radius: 6px;
+
+                li {
+                    margin-bottom: 10px;
+                    text-align: left;
+                }
+            }
+            
+
+            .secret-note {
+                border: 2px dashed red;
+                padding: 12px;
+                border-radius: 6px;
+                background: rgba(255, 0, 0, 0.05);
+                color: #ff5555;
+                font-style: italic;
+                text-align: justify;
+                margin-top: 20px;
+            }
+
+            img {
+                display: block;
+                margin: 20px auto;
+                width: 70%;
+                height: auto;
+                border-radius: 8px;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+            }
+        }
+    }
+
+    .story-sidebar {
+        height: fit-content;
+        width: 200px;
+        flex-shrink: 0;
+        position: sticky;
+        top: 100px;
+        background: #222;
+        border-radius: 8px;
+        padding: 1rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
+        .sidebar-nav {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            li{
+                margin-bottom: 0.75rem;
+            }
+
+            a {
+                display: inline-block;
+                padding: 0.3rem 0.6rem;
+                color: #ddd;
+                text-decoration: none;
+                font-size: 1rem;
+                transition: color 0.2s, background 0.2s;
+                border-radius: 4px;
+
+                &:hover {
+                    color: #fff;
+                    background: rgba(255, 0, 0, 0.2);
+                }
+                
+                &.active {
+                    background: rgba(255, 0, 0, 0.4);
+                    color: #fff;
+                    font-weight: bold;
+                    box-shadow: inset 0 0 5px rgba(255, 0, 0, 0.6);
+                }
+                }
+            }
+        }
+    }
+
+.monster-divider {
+    margin: 3rem 0;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, red, transparent);
+    opacity: 0.7;
+}
+

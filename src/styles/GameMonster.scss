@@ -1,0 +1,205 @@
+.monster-page {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.monster-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.monster-content {
+    flex: 1;
+    max-width: 700px;
+
+    h1 {
+        font-size: 2.2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .monster-img {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto 1.5rem;
+        display: block;
+        border-radius: 8px;
+    }
+
+    h2 {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        border-bottom: 2px solid rgb(255, 0, 0);
+        padding-bottom:  0.5rem;
+    }
+
+    p {
+        line-height: 1.6;
+        margin-top: 0.5rem;
+    }
+
+    .monster-sounds{
+        margin-top: 2rem;
+
+        .sound-item {
+            margin-bottom: 1.5rem;
+
+            .sound-title {
+                font-weight: bold;
+                margin-bottom: 0.3rem;
+                color: #ddd;
+            }
+
+        audio {
+            display: block;
+            margin: 1rem 0;
+            width: 100%;
+            max-width: 400px;
+        }
+    }
+} 
+
+    .monster-gallery {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1rem;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 6px;
+            transition: transform 0.3s;
+            background: #111;
+            padding: 4px;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+.monster-sidebar {
+    width: 200px;
+    flex-shrink: 0;
+    position: sticky;
+    top: 100px;
+    background: #222;
+    padding: 1rem;
+    border-radius: 8px;
+
+    .sidebar-nav{
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+
+            a {
+                display: inline-block;
+                padding: 0.3rem 0.6rem;
+                color: #ddd;
+                text-decoration: none;
+                font-size: 1rem;
+                transition: color 0.2s, background 0.2;
+                border-radius: 4px;
+
+                &:hover {
+                    color: white;
+                    background: rgba(255, 0, 0, 0.2);
+                }
+
+                &.active {
+                    background: rgba(255, 0, 0, 0.4);
+                    color: #fff;
+                    font-weight: bold;
+                    box-shadow: inset 0 0 5px rgba(255, 0, 0, 0.6); 
+                }
+            }
+        }
+    }
+}
+
+.gallery-item {
+    text-align: center;
+    cursor: pointer;
+
+    img {
+        transition: transform 0.3s;
+        border-radius: 6px;
+        background: #111;
+        padding: 4px;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .gallery-title{
+        margin-top: 0.3rem;
+        font-size: 0.9rem;
+        color: #ccc;
+    }
+}
+
+.image-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.image-modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+        max-height: 90vh;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    }
+
+    .close-btn {
+        position: absolute;
+        top: -40px;
+        right: -10px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        transition: color 0.2s;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
+
+.monster-divider {
+    margin: 3rem 0;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, transparent, red, transparent);
+    opacity: 0.7;
+}
