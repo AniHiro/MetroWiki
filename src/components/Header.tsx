@@ -42,7 +42,7 @@ export default function Header() {
         path: "#",
         label: "Гайды",
         sublinks: [
-          {path: "#", label: "Достижения"},
+          {path: "/game/metro-2033/achievements", label: "Достижения"},
           {path: "#", label: "Заметки"},
           {path: "#", label: "Сейфы"},
         ],
