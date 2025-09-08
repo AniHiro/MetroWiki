@@ -29,7 +29,7 @@ export default function GameMonster2033() {
         setActiveMonster(mostVisible.id);
       }
     },
-    { threshold: [0.25, 0.5, 0.75] }
+    { threshold: 0.2 }
   );
 
   const sections = document.querySelectorAll<HTMLElement>(".monster-content");

@@ -55,6 +55,7 @@ const chapters = [
     {id: "pathologist", title: "Паталогоанатом"},
     {id: "eme", title: "Врагов надо истреблять"},
     {id: "enlightened", title: "Просвещенный"},
+    {id: "links", title: "Ссылки"},
 ];
 
 export default function AchievementsSidebar({ activeChapter }: AchievementsSidebarProps) {

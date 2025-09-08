@@ -19,7 +19,7 @@ export default function GameStory2033() {
                     }
                 });
             },
-            { threshold: 0.3}
+            { threshold: 0.1}
         );
 
         sections.forEach((s) => observer.observe(s));

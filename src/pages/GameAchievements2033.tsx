@@ -1339,7 +1339,7 @@ export default function GameAchievements2033() {
 
                  <hr className="monster-divider" />
 
-                 <section id="links">
+                <section id="links">
                     <h1>Ссылки</h1>
                     <div className="links-buttons">
                       <a href="steam://openurl/https://steamcommunity.com/profiles/76561198964272764/" target="_blank" rel="noopener noreferrer">АВТОР</a>

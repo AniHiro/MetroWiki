@@ -10,6 +10,7 @@ import GameStory2033 from "./pages/GameStory2033";
 import GameEquipment from "./pages/GameEquipment";
 import GameWeapon2033 from "./pages/GameWeapon2033";
 import GameAchievements2033 from "./pages/GameAchievements2033";
+import GameNotes2033 from "./pages/GameNotes2033";
  
 import GameMetro2033 from "./pages/GameMetro2033";
 
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/game/metro-2033/equipment" element={<GameEquipment />} />
           <Route path="/game/metro-2033/weapon" element={<GameWeapon2033 />} />
           <Route path="/game/metro-2033/achievements" element={<GameAchievements2033 />} />
+          <Route path="/game/metro-2033/notes" element={<GameNotes2033 />} />
 
 
           <Route path="/game/metro-2033/main2033" element={<GameMetro2033 />} />
