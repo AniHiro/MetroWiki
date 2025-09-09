@@ -28,7 +28,7 @@ export default function Header() {
     links = [
       {path: "/game/metro-2033/main2033", label: "Главное"},
       {path: "/game/metro-2033/story", label: "Сюжет"},
-      {path: "#", label: "Персонажи"},
+      {path: "/game/metro-2033/characters", label: "Персонажи"},
       {path: "/game/metro-2033/monsters", label: "Монстры"},
       {
         path: "/game/metro-2033/equipment", 
@@ -37,14 +37,13 @@ export default function Header() {
           {path: "/game/metro-2033/weapon", label: "Оружие"}
         ]
       },    
-      {path: "#", label: "Пасхалки"},
       {
         path: "#",
         label: "Гайды",
         sublinks: [
           {path: "/game/metro-2033/achievements", label: "Достижения"},
           {path: "/game/metro-2033/notes", label: "Заметки"},
-          {path: "#", label: "Сейфы"},
+          {path: "/game/metro-2033/boxes", label: "Сейфы"},
         ],
       }
     ];
@@ -103,7 +102,9 @@ export default function Header() {
   return (
     <header className={headerClass}>
       <div className="header__logo">
+        <Link to="/">
         <img src={logo} alt="logo"/>
+        </Link>
       </div>
       <nav className="header__nav">
         {links.map((link) => (
