@@ -154,3 +154,123 @@
     }
   }
 }
+
+
+@media (max-width: 1024px) {
+  .boxes-page {
+    gap: 20px;
+    padding: 20px;
+
+    .boxes-content {
+      section {
+        margin-bottom: 60px;
+        padding-bottom: 30px;
+
+        h1 {
+          font-size: 1.8rem;
+        }
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .boxes-sidebar {
+      width: 180px;
+      padding: 0.8rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .boxes-page {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    .boxes-content {
+      max-width: 100%;
+
+      section {
+        margin-bottom: 40px;
+
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 0.95rem;
+        }
+
+        img {
+          max-width: 90%;
+        }
+      }
+    }
+
+    .boxes-sidebar {
+      width: 100%;
+      position: static;
+      box-shadow: none;
+      display: flex;
+      justify-content: center;
+
+      .sidebar-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      a {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+      }
+    }
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr; /* изображения в один столбец */
+  }
+}
+
+@media (max-width: 480px) {
+  .boxes-page {
+    padding: 15px;
+
+    .boxes-content {
+      section {
+        h1 {
+          font-size: 1.3rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .boxes-sidebar {
+      a {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+      }
+    }
+  }
+
+  #links {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    .links-buttons {
+      gap: 10px;
+
+      a {
+        padding: 10px 18px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

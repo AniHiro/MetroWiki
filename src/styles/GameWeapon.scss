@@ -90,3 +90,20 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .weapon-page {
+    flex-direction: column;
+    padding: 20px;
+
+    .weapon-sidebar {
+      position: static;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .weapon-content {
+      max-width: 100%;
+    }
+  }
+}
