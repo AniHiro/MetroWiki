@@ -35,7 +35,7 @@ export default function GameEquipment() {
             <main className="equipment-content">
                 <section id="flashlight">
                     <h1>Фонарь</h1>
-                    <img src="../../public/equipment/metro2033/Fonar_na_lbu.webp" alt="" />
+                    <img src="/equipment/metro2033/Fonar_na_lbu.webp" alt="" />
                     <p>
                         Средство освещения, продолжаемое использоваться выжившими после ядерной войны. В Metro 2033 и Metro: Last Light
                         присутствует модель фонаря старого образца, предположительно 2007 года. Точная модель и марка неизвестна, но, 
@@ -66,7 +66,7 @@ export default function GameEquipment() {
 
                 <section id="nvg">
                     <h1>ПНВ</h1>
-                    <img src="../../public/equipment/metro2033/2033_NV_Googles.webp" alt="" />
+                    <img src="/equipment/metro2033/2033_NV_Googles.webp" alt="" />
                     <p>
                         Множество приборов ночного видения, хранившихся на армейских складах, военных частях и в военизированных группировках, 
                         стало активно использоваться после Катастрофы. В метро их могут себе позволить лишь бойцы спецподразделений, а те, 
@@ -110,7 +110,7 @@ export default function GameEquipment() {
 
                 <section id="uc">
                     <h1>Универсальное зарядное устройство</h1>
-                    <img src="../../public/equipment/metro2033/2033_Universal_Charger.webp" alt="" />
+                    <img src="/equipment/metro2033/2033_Universal_Charger.webp" alt="" />
                     <p>
                         Жизненно необходимый элемент экипировки в суровых условиях постапокалиптического мира, где стационарные 
                         источники электроэнергии редкость. Это простое по конструкции, но высокоэффективное устройство представляет 
@@ -143,7 +143,7 @@ export default function GameEquipment() {
 
                 <section id="mask">
                     <h1>Противогаз</h1>
-                    <img src="../../public/equipment/metro2033/13954.webp" alt="" />
+                    <img src="/equipment/metro2033/13954.webp" alt="" />
                     <p>
                         Индивидуальное средство защиты органов дыхания, зрения и кожи лица от радиоактивной 
                         пыли и токсичных веществ, наполняющих воздух на поверхности и в некоторых зараженных 
@@ -167,7 +167,7 @@ export default function GameEquipment() {
 
                 <section id="filter">
                     <h1>Фильтр</h1>
-                    <img src="../../public/equipment/metro2033/2033_Filter.webp" alt="" />
+                    <img src="/equipment/metro2033/2033_Filter.webp" alt="" />
                     <p>
                         Устройство, предназначенное для очистки различных веществ, необходимых для жизнедеятельности, 
                         от ненужных примесей. Фильтры различных форм и размеров широко используются для очистки 
@@ -200,7 +200,7 @@ export default function GameEquipment() {
 
                 <section id="Watch">
                     <h1>Часы</h1>
-                    <img src="../../public/equipment/metro2033/2033_Watch.webp" alt="" />
+                    <img src="/equipment/metro2033/2033_Watch.webp" alt="" />
                     <p>
                         Многофункциональный и незаменимый элемент экипировки, эти часы, носимые традиционно на 
                         левом запястье, выходят далеко за рамки простого хронометра, превращаясь в жизненно 
@@ -215,7 +215,7 @@ export default function GameEquipment() {
 
                 <section id="fak">
                     <h1>Аптечка</h1>
-                    <img src="../../public/equipment/metro2033/Medkit_isometric_M2033.webp" alt="" />
+                    <img src="/equipment/metro2033/Medkit_isometric_M2033.webp" alt="" />
                     <p>
                         Оранжевая упаковка со шприцами, восстанавливающими значительную часть здоровья игрока в течении 
                         короткого времени после каждого использования. Помимо лечебного эффекта, на короткий промежуток 

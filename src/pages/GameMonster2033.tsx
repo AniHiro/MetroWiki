@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import MonsterSidebar from "../components/MonsterSidebar";
 import "../styles/GameMonster.scss";
 
-import "../../public/Sounds/metro2033/Guardian/Watchman_aggr_1.ogg"
+import "/Sounds/metro2033/Guardian/Watchman_aggr_1.ogg"
 
 
 
@@ -40,7 +40,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="upyr">
                 <h1>Упырь</h1>
-                <img src="../../public/monster2033/2033_Nosach_samec.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/monster2033/2033_Nosach_samec.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>Неизвестно точно, от кого мутировали упыри. Скорее всего, это помесь свиньи и крота, 
@@ -69,42 +69,42 @@ export default function GameMonster2033() {
                     <div className="sound-item">
                         <p className="sound-title">Орда</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul/Nosachi_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul/Nosachi_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Атака</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul/Nos_male_attack_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul/Nos_male_attack_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Удар</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul/Nosach_t3_hit_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul/Nosach_t3_hit_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Смерть</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul/Nosach_t4_death_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul/Nosach_t4_death_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Дыхание</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul/Nosach_movement_0.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul/Nosach_movement_0.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Рёв</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul/Nosach_voice_0.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul/Nosach_voice_0.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
@@ -115,33 +115,33 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec.webp")}>
-                           <img src="../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Ghoul/2033_Nosach_samec.webp")}>
+                           <img src="/Gallery/metro2033/Ghoul/2033_Nosach_samec.webp" alt="Классический" />
                            <p className="gallery-title">Классический</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_2.webp")}>
-                           <img src="../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_2.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Ghoul/2033_Nosach_samec_2.webp")}>
+                           <img src="/Gallery/metro2033/Ghoul/2033_Nosach_samec_2.webp" alt="Классический" />
                            <p className="gallery-title">Шерстяной (частично)</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_dark.webp")}>
-                           <img src="../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_dark.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Ghoul/2033_Nosach_samec_dark.webp")}>
+                           <img src="/Gallery/metro2033/Ghoul/2033_Nosach_samec_dark.webp" alt="Классический" />
                            <p className="gallery-title">Тёмный</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_fur.webp")}>
-                           <img src="../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_fur.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Ghoul/2033_Nosach_samec_fur.webp")}>
+                           <img src="/Gallery/metro2033/Ghoul/2033_Nosach_samec_fur.webp" alt="Классический" />
                            <p className="gallery-title">Меховой</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_insect.webp")}>
-                           <img src="../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_insect.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Ghoul/2033_Nosach_samec_insect.webp")}>
+                           <img src="/Gallery/metro2033/Ghoul/2033_Nosach_samec_insect.webp" alt="Классический" />
                            <p className="gallery-title">Насекомоподобный</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_strong.webp")}>
-                           <img src="../../public/Gallery/metro2033/Ghoul/2033_Nosach_samec_strong.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Ghoul/2033_Nosach_samec_strong.webp")}>
+                           <img src="/Gallery/metro2033/Ghoul/2033_Nosach_samec_strong.webp" alt="Классический" />
                            <p className="gallery-title">Сильный</p>
                         </div>
                     </div>
@@ -152,7 +152,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="nosach">
                 <h1>Носач</h1>
-                <img src="../../public/Gallery/metro2033/Gohol(female)/2033_Nosach_female.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/Gallery/metro2033/Gohol(female)/2033_Nosach_female.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>Вполне вероятно, что носач является по большей части помесью свиньи, 
@@ -185,21 +185,21 @@ export default function GameMonster2033() {
                     <div className="sound-item">
                         <p className="sound-title">Брачный зов</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul(female)/Nosach_distant_idle_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul(female)/Nosach_distant_idle_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Атака</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul(female)/Nosach_sonic_attack.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul(female)/Nosach_sonic_attack.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title"></p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Ghoul(female)/Nosach_sonic_attack_effect.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Ghoul(female)/Nosach_sonic_attack_effect.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
@@ -210,13 +210,13 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Gohol(female)/2033_Nosach_female.webp")}>
-                           <img src="../../public/Gallery/metro2033/Gohol(female)/2033_Nosach_female.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Gohol(female)/2033_Nosach_female.webp")}>
+                           <img src="/Gallery/metro2033/Gohol(female)/2033_Nosach_female.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Самка(релиз)</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Gohol(female)/2033_Nosach_female_375.webp")}>
-                           <img src="../../public/Gallery/metro2033/Gohol(female)/2033_Nosach_female_375.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Gohol(female)/2033_Nosach_female_375.webp")}>
+                           <img src="/Gallery/metro2033/Gohol(female)/2033_Nosach_female_375.webp" alt="Классический" />
                            <p className="gallery-title">Самка (сбоника 375)</p>
                         </div>
 
@@ -228,7 +228,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="Guardian">
                 <h1>Страж</h1>
-                <img src="../../public/Gallery/metro2033/Guardian/2033_Murzik.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/Gallery/metro2033/Guardian/2033_Murzik.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>
@@ -288,35 +288,35 @@ export default function GameMonster2033() {
                     <div className="sound-item">
                         <p className="sound-title">Агрессия</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Guardian/Watchman_aggr_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Guardian/Watchman_aggr_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title"></p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Guardian/Watchman_aggressive_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Guardian/Watchman_aggressive_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Атака</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Guardian/Watchman_attack_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Guardian/Watchman_attack_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Удар</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Biomass/Biomassa_hit_2.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Biomass/Biomassa_hit_2.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Вой</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Biomass/Biomassa_hit_2.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Biomass/Biomassa_hit_2.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
@@ -330,18 +330,18 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Guardian/2033_Murzik.webp")}>
-                           <img src="../../public/Gallery/metro2033/Guardian/2033_Murzik.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Guardian/2033_Murzik.webp")}>
+                           <img src="/Gallery/metro2033/Guardian/2033_Murzik.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Классический</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Guardian/2033_Murzik_green.webp")}>
-                           <img src="../../public/Gallery/metro2033/Guardian/2033_Murzik_green.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Guardian/2033_Murzik_green.webp")}>
+                           <img src="/Gallery/metro2033/Guardian/2033_Murzik_green.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Зелёный</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Guardian/2033_Murzik_grey.webp")}>
-                           <img src="../../public/Gallery/metro2033/Guardian/2033_Murzik_grey.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Guardian/2033_Murzik_grey.webp")}>
+                           <img src="/Gallery/metro2033/Guardian/2033_Murzik_grey.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Серый</p>
                         </div>
 
@@ -359,7 +359,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="demon">
                 <h1>Демон</h1>
-                <img src="../../public/Gallery/metro2033/Demon/2033_Demon.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/Gallery/metro2033/Demon/2033_Demon.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>
@@ -383,21 +383,21 @@ export default function GameMonster2033() {
                     <div className="sound-item">
                         <p className="sound-title">Атака</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Demon/Demon_attack_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Demon/Demon_attack_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Удар</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Demon/Demon_hit_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Demon/Demon_hit_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Смерть</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Demon/Demon_death_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Demon/Demon_death_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
@@ -408,13 +408,13 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Demon/2033_Demon.webp")}>
-                           <img src="../../public/Gallery/metro2033/Demon/2033_Demon.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Demon/2033_Demon.webp")}>
+                           <img src="/Gallery/metro2033/Demon/2033_Demon.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Классический</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Demon/2033_Demon_dark.webp")}>
-                           <img src="../../public/Gallery/metro2033/Demon/2033_Demon_dark.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Demon/2033_Demon_dark.webp")}>
+                           <img src="/Gallery/metro2033/Demon/2033_Demon_dark.webp" alt="Классический" />
                            <p className="gallery-title">Тёмный</p>
                         </div>
 
@@ -426,7 +426,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="librarian">
                 <h1>Библиотекарь</h1>
-                <img src="../../public/Gallery/metro2033/Librarian/2033_Bibliotekar.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/Gallery/metro2033/Librarian/2033_Bibliotekar.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>Ходит мнение, что библиотекари произошли от горилл, сбежавших из зоопарка 
@@ -459,42 +459,42 @@ export default function GameMonster2033() {
                     <div className="sound-item">
                         <p className="sound-title">Храп</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Librarian/Bib_slip_0.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Librarian/Bib_slip_0.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Критическое ранение</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Librarian/Crit_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Librarian/Crit_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Вой</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Librarian/Idle_far_0.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Librarian/Idle_far_0.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Расслабленный</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Librarian/Relax_look_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Librarian/Relax_look_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Удар</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Librarian/Udar_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Librarian/Udar_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Напряжённый</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Librarian/Strong_look_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Librarian/Strong_look_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
@@ -505,13 +505,13 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Librarian/2033_Bibliotekar.webp")}>
-                           <img src="../../public/Gallery/metro2033/Librarian/2033_Bibliotekar.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Librarian/2033_Bibliotekar.webp")}>
+                           <img src="/Gallery/metro2033/Librarian/2033_Bibliotekar.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Классический</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Librarian/2033_Bibliotekar_black.webp")}>
-                           <img src="../../public/Gallery/metro2033/Librarian/2033_Bibliotekar_black.webp" alt="Классический" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Librarian/2033_Bibliotekar_black.webp")}>
+                           <img src="/Gallery/metro2033/Librarian/2033_Bibliotekar_black.webp" alt="Классический" />
                            <p className="gallery-title">Чёрный</p>
                         </div>
 
@@ -524,7 +524,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="dark">
                 <h1>Чёрный</h1>
-                <img src="../../public/Gallery/metro2033/Black/Dark_One.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/Gallery/metro2033/Black/Dark_One.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>
@@ -567,8 +567,8 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Black/Dark_One.webp")}>
-                           <img src="../../public/Gallery/metro2033/Black/Dark_One.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Black/Dark_One.webp")}>
+                           <img src="/Gallery/metro2033/Black/Dark_One.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Классический</p>
                         </div>
 
@@ -582,7 +582,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="kikimora">
                 <h1>Кикимора</h1>
-                <img src="../../public/Gallery/metro2033/Kikimora/2033_Churzik.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/Gallery/metro2033/Kikimora/2033_Churzik.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>
@@ -607,21 +607,21 @@ export default function GameMonster2033() {
                     <div className="sound-item">
                         <p className="sound-title">Атака</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Kikimora/Churzik_attack_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Kikimora/Churzik_attack_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Ранение</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Kikimora/Churzik_hit_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Kikimora/Churzik_hit_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Смерть</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Kikimora/Churzik_death_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Kikimora/Churzik_death_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
@@ -633,8 +633,8 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Kikimora/2033_Churzik.webp")}>
-                           <img src="../../public/Gallery/metro2033/Kikimora/2033_Churzik.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Kikimora/2033_Churzik.webp")}>
+                           <img src="/Gallery/metro2033/Kikimora/2033_Churzik.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Классический</p>
                         </div>
 
@@ -648,7 +648,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="Amoeba">
                 <h1>Амёба</h1>
-                <img src="../../public/Gallery/metro2033/Amoeba/2033_Ameba.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/Gallery/metro2033/Amoeba/2033_Ameba.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>
@@ -684,42 +684,42 @@ export default function GameMonster2033() {
                     <div className="sound-item">
                         <p className="sound-title">Подготовка к атаке</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Amoeba/Ameba_attack_prepare_4.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Amoeba/Ameba_attack_prepare_4.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Атака</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Amoeba/Ameba_shoot_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Amoeba/Ameba_shoot_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Ранение</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Amoeba/Demon_hit_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Amoeba/Demon_hit_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Взрыв</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Amoeba/Ameba_explosion.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Amoeba/Ameba_explosion.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Рождение</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Amoeba/Bubble_ameba_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Amoeba/Bubble_ameba_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Смерть</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Amoeba/Ameba_die_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Amoeba/Ameba_die_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
@@ -731,8 +731,8 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Amoeba/2033_Ameba.webp")}>
-                           <img src="../../public/Gallery/metro2033/Amoeba/2033_Ameba.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Amoeba/2033_Ameba.webp")}>
+                           <img src="/Gallery/metro2033/Amoeba/2033_Ameba.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Классический</p>
                         </div>
 
@@ -746,7 +746,7 @@ export default function GameMonster2033() {
 
             <section className="monster-content" id="biomass">
                 <h1>Биомасса</h1>
-                <img src="../../public/Gallery/metro2033/Biomass/2033_Biomassa.webp" alt="Monster Name" className="monster-img"/>
+                <img src="/Gallery/metro2033/Biomass/2033_Biomassa.webp" alt="Monster Name" className="monster-img"/>
                 <section>
                     <h2>Происхождение</h2>
                     <p>
@@ -782,28 +782,28 @@ export default function GameMonster2033() {
                     <div className="sound-item">
                         <p className="sound-title">Атака(начало)</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Biomass/Biomassa_attack_start.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Biomass/Biomassa_attack_start.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Атака(стоп)</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Biomass/Biomassa_attack_stop_1.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Biomass/Biomassa_attack_stop_1.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Смерть</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Biomass/Biomassa_death.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Biomass/Biomassa_death.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
                     <div className="sound-item">
                         <p className="sound-title">Отрывание щупальца</p>
                     <audio controls>
-                        <source src="../../public/Sounds/metro2033/Biomass/Biomassa_hit_2.ogg" type="audio/mpeg"/>
+                        <source src="/Sounds/metro2033/Biomass/Biomassa_hit_2.ogg" type="audio/mpeg"/>
                     </audio>
                     </div>
 
@@ -817,13 +817,13 @@ export default function GameMonster2033() {
                     <div className="section-divider"></div>
                     <div className="monster-gallery">
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Biomass/2033_Biomassa.webp")}>
-                           <img src="../../public/Gallery/metro2033/Biomass/2033_Biomassa.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Biomass/2033_Biomassa.webp")}>
+                           <img src="/Gallery/metro2033/Biomass/2033_Biomassa.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Классический</p>
                         </div>
 
-                        <div className="gallery-item" onClick={() => openImage("../../public/Gallery/metro2033/Biomass/2033R_Biomassa.webp")}>
-                           <img src="../../public/Gallery/metro2033/Biomass/2033R_Biomassa.webp" alt="Самка(релиз)" />
+                        <div className="gallery-item" onClick={() => openImage("/Gallery/metro2033/Biomass/2033R_Biomassa.webp")}>
+                           <img src="/Gallery/metro2033/Biomass/2033R_Biomassa.webp" alt="Самка(релиз)" />
                            <p className="gallery-title">Redux</p>
                         </div>
 

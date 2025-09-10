@@ -3,7 +3,7 @@ import WeaponSidebar from "../components/WeaponSidebar";
 
 import '../styles/GameWeapon.scss'
 
-import "../../public/weapon/metro2033/M2033_-_Revolver.webp"
+import "/weapon/metro2033/M2033_-_Revolver.webp"
 
 
 
@@ -38,7 +38,7 @@ export default function GameWeapon2033() {
             <main className="weapon-content">
                 <section id="revolver">
                     <h1>Револьвер</h1>
-                    <img src="../../public/weapon/metro2033/M2033_-_Revolver.webp" alt="" />
+                    <img src="/weapon/metro2033/M2033_-_Revolver.webp" alt="" />
                     <p>
                         Револьвер представляет собой шестизарядное (в стандартной конфигурации) оружие под мощный патрон .44 Магнум. 
                         Востребован благодаря своей надёжности, высокому урону и значительной гибкости в модификации.
@@ -59,7 +59,7 @@ export default function GameWeapon2033() {
 
                 <section id="Doublet">
                     <h1>Дуплет</h1>
-                    <img src="../../public/weapon/metro2033/2033_Duplet.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Duplet.webp" alt="" />
                     <p>
                         Кустарный двуствольный дробовик с переломным механизмом заряжания и результат оружейной мысли, 
                         вынужденный создать простое и мощное оружие из подручных материалов. Он представляет собой 
@@ -83,7 +83,7 @@ export default function GameWeapon2033() {
 
                 <section id="TheKiller">
                     <h1>Убойник</h1>
-                    <img src="../../public/weapon/metro2033/2033_Uboinik.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Uboinik.webp" alt="" />
                     <p>
                         Самодельный дробовик высокой убойности, сочетающий в себе элементы револьвера, созданный 
                         после ядерной войны в московском метро умельцами Ордена. Вместо традиционного магазина 
@@ -115,7 +115,7 @@ export default function GameWeapon2033() {
 
                 <section id="Bastard">
                     <h1>Ублюдок</h1>
-                    <img src="../../public/weapon/metro2033/2033_Bastard.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Bastard.webp" alt="" />
                     <p>
                         «Ублюдок» — это яркий пример инженерной мысли, способной создать оружие буквально из 
                         ничего. Его конструкция предельно упрощена для удешевления производства и обслуживания, 
@@ -148,7 +148,7 @@ export default function GameWeapon2033() {
 
                 <section id="ak">
                     <h1>АК-74М (Калаш)</h1>
-                    <img src="../../public/weapon/metro2033/2033_Kalash.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Kalash.webp" alt="" />
                     <p>
                         Один из самых распространённых и узнаваемых автоматов, являлся стандартным довоенным 
                         оружием российской армии, сохранившимся в больших количествах после Катастрофы.
@@ -175,7 +175,7 @@ export default function GameWeapon2033() {
 
                 <section id="ak2012">
                     <h1>Калаш 2012</h1>
-                    <img src="../../public/weapon/metro2033/AK-2012.webp" alt="" />
+                    <img src="/weapon/metro2033/AK-2012.webp" alt="" />
                     <p>
                         Автомат следующего поколения в компоновке «булл-пап», принятый на вооружение российской 
                         армии незадолго до ядерной войны, но не успевший получить широкого распространения, 
@@ -200,7 +200,7 @@ export default function GameWeapon2033() {
 
                 <section id="VSV">
                     <h1>ВСВ</h1>
-                    <img src="../../public/weapon/metro2033/2033_VSV.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_VSV.webp" alt="" />
                     <p>
                         Довоенный российский автомат, редкое и высоко ценимое оружие, используемое 
                         преимущественно элитными подразделениями.
@@ -217,7 +217,7 @@ export default function GameWeapon2033() {
 
                 <section id="Tihar">
                     <h1>Тихарь</h1>
-                    <img src="../../public/weapon/metro2033/2033_Tikhar.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Tikhar.webp" alt="" />
                     <p>
                       Кустарное многозарядное ружьё для бесшумной стрельбы, созданное жителями Московского 
                       метрополитена из подручных материалов после ядерной войны. Представляет собой 
@@ -244,7 +244,7 @@ export default function GameWeapon2033() {
 
                 <section id="Helsing">
                     <h1>Хельсинг</h1>
-                    <img src="../../public/weapon/metro2033/Helsing_isometric_M2033.webp" alt="" />
+                    <img src="/weapon/metro2033/Helsing_isometric_M2033.webp" alt="" />
                     <p>
                       Сложное механическое устройство, сочетающее принципы пневматики и арбалета.
                     </p>
@@ -272,7 +272,7 @@ export default function GameWeapon2033() {
 
                 <section id="Paragraph">
                     <h1>Абзац</h1>
-                    <img src="../../public/weapon/metro2033/Heavy_auto_shotty.webp" alt="" />
+                    <img src="/weapon/metro2033/Heavy_auto_shotty.webp" alt="" />
                     <p>
                       Тяжёлый автоматический дробовик, уникальное творение оружейников с Кузнецкого Моста. 
                       В качестве основы выступает укороченный и переделанный под патрон 12 калибра пулемёт 
@@ -292,7 +292,7 @@ export default function GameWeapon2033() {
 
                 <section id="Rails">
                     <h1>Рельса</h1>
-                    <img src="../../public/weapon/metro2033/2033_Hellbreath.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Hellbreath.webp" alt="" />
                     <p>
                       Кустарное электромагнитное ружьё, использующее эффект Лоренца для разгона металлических 
                       снарядов до сверхвысоких скоростей. Энергетический аналог пневматического «Тихаря».
@@ -321,7 +321,7 @@ export default function GameWeapon2033() {
 
                 <section id="Knife">
                     <h1>Нож</h1>
-                    <img src="../../public/weapon/metro2033/2033_Knife.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Knife.webp" alt="" />
                     <p>
                       Окопный нож кустарного производства с обоюдоострым клинком и характерной рукоятью, 
                       совмещённой с кастетом. Такая конструкция, напоминающая реальные окопные ножи времён 
@@ -338,7 +338,7 @@ export default function GameWeapon2033() {
 
                 <section id="Throwingknife">
                     <h1>Метательный нож</h1>
-                    <img src="../../public/weapon/metro2033/2033_Throwing_knife.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Throwing_knife.webp" alt="" />
                     <p>
                       Излюбленное оружие тех, кто предпочитает скрытность открытому бою. Ножи бесшумны, наносят высокий урон, могут 
                       быть подобраны и использованы повторно и часто встречаются на просторах постапокалиптического мира.
@@ -360,7 +360,7 @@ export default function GameWeapon2033() {
 
                 <section id="Grenade">
                     <h1>Граната</h1>
-                    <img src="../../public/weapon/metro2033/2033_Grenade.webp" alt="" />
+                    <img src="/weapon/metro2033/2033_Grenade.webp" alt="" />
                     <p>
                       Стандартная самодельная граната, состоящая из отрезка стальной трубы, начинённого взрывчатой смесью и закрытого 
                       с торцов. Имеется фитиль для поджига. При взрыве труба разлетается на осколки, поражая цели в радиусе действия.
@@ -380,7 +380,7 @@ export default function GameWeapon2033() {
 
                 <section id="Machinemountedflamethrower">
                     <h1>Станковый огнемёт</h1>
-                    <img src="../../public/weapon/metro2033/3F3F3F3F3F3F3F3F.webp" alt="" />
+                    <img src="/weapon/metro2033/3F3F3F3F3F3F3F3F.webp" alt="" />
                     <p>
                       Представляет собой газообразный пропеллент на основе оружия, созданного из металлолома после Катастрофы 2013 года. 
                       Во многих случаях огнемёт оказался гораздо более эффективным в защите станций метро. Это высоко почитаемое оружие, 
@@ -393,7 +393,7 @@ export default function GameWeapon2033() {
 
                 <section id="DShK">
                     <h1>ДШК</h1>
-                    <img src="../../public/weapon/metro2033/3F%3F.webp" alt="" />
+                    <img src="/weapon/metro2033/3F%3F.webp" alt="" />
                     <p>
                       Советский крупнокалиберный пулемёт, разработанный ещё до Второй мировой войны и широко использовавшийся в XX веке. 
                       Это довоенное оружие встречается в виде стационарных огневых точек, используемых для обороны станций, тоннелей и 

@@ -8,12 +8,12 @@ import "../styles/HeroSlider.scss"
 
 interface Slide { type: "video" | "image"; src: string; }
 const slides: Slide[] = [
-    { type: "video", src: "../../public/trailer/Metro Redux - Announce Trailer US [get-save.com].mp4"},
-    { type: "image", src: "../../public/Screenshot_of_Metro_2033/image.jpg"},
-    { type: "image", src: "../../public/Screenshot_of_Metro_2033/image_5b80b1e56a7ac8.11496995.jpg"},
-    { type: "image", src: "../../public/Screenshot_of_Metro_2033/image_5b80b1e616a982.63890268.jpg"},
-    { type: "image", src: "../../public/Screenshot_of_Metro_2033/metro_2033_redux-1.jpg"},
-    { type: "image", src: "../../public/Screenshot_of_Metro_2033/screenshot.metro-2033-redux.1920x1080.2014-08-27.15.jpg"},
+    { type: "video", src: "/trailer/Metro Redux - Announce Trailer US [get-save.com].mp4"},
+    { type: "image", src: "/Screenshot_of_Metro_2033/image.jpg"},
+    { type: "image", src: "/Screenshot_of_Metro_2033/image_5b80b1e56a7ac8.11496995.jpg"},
+    { type: "image", src: "/Screenshot_of_Metro_2033/image_5b80b1e616a982.63890268.jpg"},
+    { type: "image", src: "/Screenshot_of_Metro_2033/metro_2033_redux-1.jpg"},
+    { type: "image", src: "/Screenshot_of_Metro_2033/screenshot.metro-2033-redux.1920x1080.2014-08-27.15.jpg"},
 ];
 
 export default function HeroSlider() {

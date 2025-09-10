@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import StorySidebar from "../components/StorySidebar";
 import "../styles/GameStory.scss"
 
-import "../../public/Story/metro2033/1906246999_preview_maxresdefault (1).jpg"
+import "/Story/metro2033/1906246999_preview_maxresdefault (1).jpg"
 
 
 export default function GameStory2033() {
@@ -35,7 +35,7 @@ export default function GameStory2033() {
                 <section id="prologue">
                     <h1>Пролог</h1>
                     <h2>Башня</h2>
-                    <img src="../../public/Story/metro2033/1906246999_preview_maxresdefault (1).jpg" alt="" />
+                    <img src="/Story/metro2033/1906246999_preview_maxresdefault (1).jpg" alt="" />
                     <p>
                         Играем за человека по имени Артём. Вместе со сталкером по прозвищу Мельник поднимаемся по лестнице. 
                         Наверху большие металлические ворота. Смотрим вправо, крутим вентиль, чтобы открыть ворота.
@@ -67,7 +67,7 @@ export default function GameStory2033() {
                         и весь отряд оказывается в безвыходном положении.
                     </p>
                     <h2>Хантер</h2>
-                    <img src="../../public/Story/metro2033/2033_l01.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l01.webp" alt="" />
                     <p>
                         Просыпаемся в маленькой комнатке на станции метро. Входит начальник станции Александр Сухой 
                         и зовёт нас послушать гостя, пришедшего с другой станции. Идём за человеком, слушаем, что 
@@ -113,7 +113,7 @@ export default function GameStory2033() {
                 <section id="chapter1">
                     <h1>ГЛАВА 1: В ПУТЬ</h1>
                     <h2>ВДНХ</h2>
-                    <img src="../../public/Story/metro2033/Без названия.jpg" alt="" />
+                    <img src="/Story/metro2033/Без названия.jpg" alt="" />
                     <p>
                         Хантер пропал без вести, поэтому нужно выполнить его последнюю просьбу. Как раз скоро отправляется 
                         караван на соседнюю станцию метро.
@@ -160,7 +160,7 @@ export default function GameStory2033() {
 
                     </p>
                     <h2>Погоня</h2>
-                    <img src="../../public/Story/metro2033/2033_l03.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l03.webp" alt="" />
                     <p>
                         По пути узнаете, что дорога до Полиса не самая близкая и не легкая. Готовьтесь к неожиданностям. 
                         Кстати, проблемы начнутся быстро. Около станции Алексеевской случился обвал тоннеля. Придется 
@@ -187,7 +187,7 @@ export default function GameStory2033() {
                 <section id="chapter2-1">
                     <h1>ГЛАВА 2: БУРБОН ЧАСТЬ 1</h1>
                     <h2>Рижская</h2>
-                    <img src="../../public/Story/metro2033/1410807052_1342995190.jpg" alt="" />
+                    <img src="/Story/metro2033/1410807052_1342995190.jpg" alt="" />
                     <p>
                         На Рижской станции сидим за столом, вместе с другими участниками каравана отмечаем то, что 
                         добрались живыми. Все благодарят именно нас за спасение. По станции тут же разносится слух, 
@@ -243,7 +243,7 @@ export default function GameStory2033() {
                         Следуем за Бурбоном, выходим со станции через секретный проход.
                     </p>
                     <h2>Заброшенные туннели</h2>
-                    <img src="../../public/Story/metro2033/2033_l05.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l05.webp" alt="" />
                     <p>
                         Идём по тоннелю. Слева есть тупик, там обитают кикиморы – мутировавшие крысы, которые нападают 
                         из своих нор. Они нападают только на одиночек и только сзади, а если посмотреть на них, то они 
@@ -251,7 +251,7 @@ export default function GameStory2033() {
                         справа за досками есть ящик с патронами.
                     </p>
                     <h2>Лагерь бандитов</h2>
-                    <img src="../../public/Story/metro2033/2033_l05_bandit_camp.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l05_bandit_camp.webp" alt="" />
                     <p>
                         На ж/д путях находим трупы местных караванщиков. Как говорит Бурбон, где-то здесь орудует 
                         группа третьяковских бандитов
@@ -284,7 +284,7 @@ export default function GameStory2033() {
                         Секрет. За красной дверью в следующей комнате слева на высоком ящике лежит заметка 1.
                     </p>
                     <h2>Мост</h2>
-                    <img src="../../public/Story/metro2033/2033_l06.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l06.webp" alt="" />
                     <p>
                         Приходим на открытое пространство, в центре которого проходит двухуровневая железная дорога. 
                         Перепрыгиваем пропасть. На нижнем этаже берём противогаз со столба, надеваем его. Отбиваемся 
@@ -311,7 +311,7 @@ export default function GameStory2033() {
                         пройти. Бурбон опускает лестницу справа, идём за ним по техническим помещениям.
                     </p>
                     <h2>Катакомбы</h2>
-                    <img src="../../public/Story/metro2033/2033_l07.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l07.webp" alt="" />
                     <p>
                         Входим в большой сток канализации. Здесь очень много трупов, настоящее кладбище. 
                         Обыскиваем всё вокруг, собираем патроны.
@@ -352,7 +352,7 @@ export default function GameStory2033() {
                 <section id="chapter2-2">
                     <h1>ГЛАВА 2: БУРБОН ЧАСТЬ 2</h1>
                     <h2>Базар</h2>
-                    <img src="../../public/Story/metro2033/2033_l08.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l08.webp" alt="" />
                     <p>
                         После победы Бурбон договаривается с местными солдатами Ганзы, и охранники
                         пропускают нас внутрь. Ганза – это торговцы, на словах проповедующие свободу и демократию, 
@@ -394,9 +394,9 @@ export default function GameStory2033() {
                         эскалатору.
                     </p>
                     <h2>Мертвый город</h2>
-                    <img src="../../public/Story/metro2033/2033_l09.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l09.webp" alt="" />
                     <h2>Внутри вокзала</h2>
-                    <img src="../../public/Story/metro2033/Redux_2014-05-22_02.webp" alt="" />
+                    <img src="/Story/metro2033/Redux_2014-05-22_02.webp" alt="" />
                     <p>
                         На поверхности оказываемся в здании. Здесь обыскиваем трупы, собираем патроны. Осторожней! В 
                         узких коридорах расставлены растяжки с гранатами! Ловушки можно обезвредить, если подойти 
@@ -428,7 +428,7 @@ export default function GameStory2033() {
                         обход по правой стороне.
                     </p>
                     <h2>Многоэтажное здание</h2>
-                    <img src="../../public/Story/metro2033/2033_l09_bank.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l09_bank.webp" alt="" />
                     <p>
                         Идём по доскам, по круглому крыльцу заходим в здание.
                     </p>
@@ -454,7 +454,7 @@ export default function GameStory2033() {
                         его ножом, нажимая «Е».
                     </p>
                     <h2>Детская площадка</h2>
-                    <img src="../../public/Story/metro2033/1906246999_preview_290295.jpg" alt="" />
+                    <img src="/Story/metro2033/1906246999_preview_290295.jpg" alt="" />
                     <p>
                         Выходим во двор, на детской площадке наблюдаем видение о прошедшей мирной жизни в 
                         Москве. (После вспышки воспоминания замечаем, что впереди на красном гараже сидит черный, 
@@ -491,7 +491,7 @@ export default function GameStory2033() {
                         Через подземный переход добираемся на другую сторону реки.
                     </p>
                     <h2>За рекой</h2>
-                    <img src="../../public/Story/metro2033/2033_l09_underpass.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l09_underpass.webp" alt="" />
                     <p className="secret-note">
                         Секрет. Выйдя из перехода, идём вправо вдоль здания. Через разбитое стекло забираемся в здание. 
                         Там в дальнем тупике находим монстра, который защищает своих детенышей. Он не будет на нас 
@@ -513,7 +513,7 @@ export default function GameStory2033() {
                         В здании спускаемся по лестнице. По подвалу выходим на открытую местность с водой.
                     </p>
                     <h2>Во дворах</h2>
-                    <img src="../../public/Story/metro2033/2033_l10_watchmen_attack.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l10_watchmen_attack.webp" alt="" />
                     <p className="secret-note">
                        Секрет. Сидя проползаем в пролом в левой стене. Разрезаем веревку ловушки. В желтом ящике находим 
                        фильтры и патроны.
@@ -543,7 +543,7 @@ export default function GameStory2033() {
                 <section id="chapter3">
                     <h1>ГЛАВА 3: ХАН</h1>
                     <h2>Сухаревская</h2>
-                    <img src="../../public/Story/metro2033/1906246999_preview_Screenshot.png" alt="" />
+                    <img src="/Story/metro2033/1906246999_preview_Screenshot.png" alt="" />
                     <p>
                         Добираемся до следующей станции метро через систему вентиляции. Бурбон выбирается наружу, '
                         но с местными бандитами ему не удаётся договориться. Ждём когда Бурбона уведут в плен, 
@@ -588,7 +588,7 @@ export default function GameStory2033() {
                         использование кальяна + карме
                     </p>
                     <h2>Комната главаря</h2>
-                    <img src="../../public/Story/metro2033/1906246999_preview_Screenshot (1)р.png" alt="" />
+                    <img src="/Story/metro2033/1906246999_preview_Screenshot (1)р.png" alt="" />
                     <p>
                         В конце станции видим, как главарь бандитов убивает Бурбона, а Бурбон его. Из вентиляции 
                         появляется одинокий сталкер Хан, идём за ним.
@@ -597,7 +597,7 @@ export default function GameStory2033() {
                         Секрет. В последней комнате, где встречаем Хана, слева от выхода на столе лежит заметка 2.
                     </p>
                     <h2>Призраки</h2>
-                    <img src="../../public/Story/metro2033/2033_l12_child_and_nosach_ghosts.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l12_child_and_nosach_ghosts.webp" alt="" />
                     <p>
                         Тоннель теней
                     </p>
@@ -663,7 +663,7 @@ export default function GameStory2033() {
                         виднеется заметка 3.
                     </p>
                     <h2>Тургеневская</h2>
-                    <img src="../../public/Story/metro2033/2033_l14.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l14.webp" alt="" />
                     <p>
                         На станции встречаем трех оставшихся бойцов, все остальные погибли. Хан жил на этой станции, поэтому он 
                         присоединяется к местным защитникам. На станцию постоянно нападают монстры, нужно помочь людям держать 
@@ -700,7 +700,7 @@ export default function GameStory2033() {
                         открывает нам подземный путь к следующей станции.
                     </p>
                     <h2>Кузнецкий мост</h2>
-                    <img src="../../public/Story/metro2033/2033_l15.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l15.webp" alt="" />
                     <p>
                         На этой станции мы должны найти Андрея Мастера, он может провести нас дальше. Заходим на станцию, нас легко 
                         пропускают, но предупреждают о проверках со стороны «красных». Красные – это люди, пытающиеся построить рай 
@@ -744,7 +744,7 @@ export default function GameStory2033() {
                 <section id="chapter4-1">
                     <h1>ГЛАВА 4: ВОЙНА ЧАСТЬ 1</h1>
                     <h2>Линия фронта</h2>
-                    <img src="../../public/Story/metro2033/2033_l16.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l16.webp" alt="" />
                     <p>
                         Добираемся до следующей станции метро через систему вентиляции. Бурбон выбирается наружу, '
                         но с местными бандитами ему не удаётся договориться. Ждём когда Бурбона уведут в плен, 
@@ -903,7 +903,7 @@ export default function GameStory2033() {
                 <section id="chapter4-2">
                     <h1>ГЛАВА 4: ВОЙНА ЧАСТЬ 2</h1>
                     <h2>Депо</h2>
-                    <img src="../../public/Story/metro2033/2033_l18_mutants_attack.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l18_mutants_attack.webp" alt="" />
                     <p>
                        Во время поездки следим за потолком, нам нужно вовремя приседать, чтобы не удариться головой об препятствия.
                     </p>
@@ -930,7 +930,7 @@ export default function GameStory2033() {
                         – выходим с уровня.
                     </p>
                     <h2>Павелецкая</h2>
-                    <img src="../../public/Story/metro2033/2033_l19_Hole_defenders.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l19_Hole_defenders.webp" alt="" />
                     <p>
                         Оборона станции
                     </p>
@@ -1023,7 +1023,7 @@ export default function GameStory2033() {
                 <section id="chapter4-3">
                     <h1>ГЛАВА 4: ВОЙНА ЧАСТЬ 3</h1>
                     <h2>Форпост</h2>
-                    <img src="../../public/Story/metro2033/2033_l21.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l21.webp" alt="" />
                     <p>
                        Шахта
                     </p>
@@ -1168,7 +1168,7 @@ export default function GameStory2033() {
                 <section id="chapter5">
                     <h1>ГЛАВА 5: НАДЕЖДА</h1>
                     <h2>Полис</h2>
-                    <img src="../../public/Story/metro2033/2033_l23.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l23.webp" alt="" />
                     <p>
                        Полис – самая большая станция в Московском метро. Именно здесь и обосновались спартанцы. Орден Спарты защищает всё метро 
                        от внешних опасностей, его участники живут в самом центре, поэтому их можно считать подземными федералами.
@@ -1195,7 +1195,7 @@ export default function GameStory2033() {
                         Из метро выходим на поверхность.
                     </p>
                     <h2>Аллея</h2>
-                    <img src="../../public/Story/metro2033/2033_l24.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l24.webp" alt="" />
                     <p>
                         Выходим на улицу, надеваем противогаз. Впереди канава, поэтому идём налево по земле. (Можем пройтись и по канаве, но там 
                         ничего интересного).
@@ -1371,7 +1371,7 @@ export default function GameStory2033() {
                 <section id="chapter6">
                     <h1>ГЛАВА 6: Д-6</h1>
                     <h2>Тоннель на Киевскую</h2>
-                    <img src="../../public/Story/metro2033/2033_l30.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l30.webp" alt="" />
                     <p>
                        Едем в западную часть системы метро в направлении Киевской станции. По пути видим очередные галлюцинации от «черных».
                     </p>
@@ -1445,7 +1445,7 @@ export default function GameStory2033() {
                     <h2>
                         Д-6
                     </h2>
-                    <img src="../../public/Story/metro2033/2033_l33.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l33.webp" alt="" />
                     <p className="secret-note">
                         Секрет. Пока заезжаем на базу, осматриваем вагоны автоматического поезда, на одном из сидений лежит заметка 1.
                     </p>
@@ -1476,7 +1476,7 @@ export default function GameStory2033() {
                     <h2>
                         Биомасса
                     </h2>
-                    <img src="../../public/Story/metro2033/2033_l34_biomass.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l34_biomass.webp" alt="" />
                     <p>
                         На нижнем этаже обходим всё вокруг, уничтожаем амёб. Можно стрелять в наросты на стенах, чтобы амёбы вообще 
                         не появлялись.
@@ -1517,7 +1517,7 @@ export default function GameStory2033() {
                 <section id="chapter7">
                     <h1>ГЛАВА 7: БАШНЯ</h1>
                     <h2>Башня</h2>
-                    <img src="../../public/Story/metro2033/2033_l36.webp" alt="" />
+                    <img src="/Story/metro2033/2033_l36.webp" alt="" />
                     <p>
                        Равнина
                     </p>

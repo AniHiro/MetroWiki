@@ -3,7 +3,7 @@ import BoxesSidebar from "../components/BoxesSidebar";
 
 import '../styles/GameBoxes2033.scss'
 
-import '../../public/boxes/metro2033/1.jpg'
+import '/boxes/metro2033/1.jpg'
 
 
 
@@ -46,8 +46,8 @@ export default function GameBoxes2033() {
                     <p>
                         Сейф и ключ находятся в районе туалетов.
                     </p>
-                    <img src="../../public/boxes/metro2033/1.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/2.jpg" alt="" />
+                    <img src="/boxes/metro2033/1.jpg" alt="" />
+                    <img src="/boxes/metro2033/2.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -60,8 +60,8 @@ export default function GameBoxes2033() {
                     <p>
                         Ключ находится в туннеле, перед сигнализацией из банок, сейф - в первой комнате, где мы проводим бой с бандитами.
                     </p>
-                    <img src="../../public/boxes/metro2033/3.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/4.jpg" alt="" />
+                    <img src="/boxes/metro2033/3.jpg" alt="" />
+                    <img src="/boxes/metro2033/4.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -75,8 +75,8 @@ export default function GameBoxes2033() {
                         Ключ находится в круглом каменном колодце, сейф - в новом тайнике внизу напротив входа на Базар. Чтобы добраться 
                         до сейфа, необходимо вентилем перекрыть струи пара.
                     </p>
-                    <img src="../../public/boxes/metro2033/5.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/6.jpg" alt="" />
+                    <img src="/boxes/metro2033/5.jpg" alt="" />
+                    <img src="/boxes/metro2033/6.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -89,8 +89,8 @@ export default function GameBoxes2033() {
                     <p>
                         Сейф находится сразу после охраны Базара справа в вагоне метро, ключ - дальше возле радиста.
                     </p>
-                    <img src="../../public/boxes/metro2033/7.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/8.jpg" alt="" />
+                    <img src="/boxes/metro2033/7.jpg" alt="" />
+                    <img src="/boxes/metro2033/8.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -103,8 +103,8 @@ export default function GameBoxes2033() {
                     <p>
                         Ключ находится на первом этаже справа на настенном телефоне, сейф - на втором этаже за дверью.
                     </p>
-                    <img src="../../public/boxes/metro2033/9.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/10.jpg" alt="" />
+                    <img src="/boxes/metro2033/9.jpg" alt="" />
+                    <img src="/boxes/metro2033/10.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -119,8 +119,8 @@ export default function GameBoxes2033() {
                         радиоактивной комнате на первом этаже, как только зайдешь в здание, на трупе, сейф дальше перед подъемом по 
                         лестнице слева в тупичке.
                     </p>
-                    <img src="../../public/boxes/metro2033/11.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/12.jpg" alt="" />
+                    <img src="/boxes/metro2033/11.jpg" alt="" />
+                    <img src="/boxes/metro2033/12.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -134,8 +134,8 @@ export default function GameBoxes2033() {
                         В Мертвом городе после нахождения Бурбона будет небольшой подвальчик и мужик с ключом, а рядом окно разбито и в 
                         квартире будет сейф.
                     </p>
-                    <img src="../../public/boxes/metro2033/13.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/14.jpg" alt="" />
+                    <img src="/boxes/metro2033/13.jpg" alt="" />
+                    <img src="/boxes/metro2033/14.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -149,8 +149,8 @@ export default function GameBoxes2033() {
                         Почти в самой середине уровня в комнате справа находится сейф, после нападения мутантов, откроется дверь 
                         напротив сейфа, там будет ключ.
                     </p>
-                    <img src="../../public/boxes/metro2033/15.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/16.jpg" alt="" />
+                    <img src="/boxes/metro2033/15.jpg" alt="" />
+                    <img src="/boxes/metro2033/16.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -164,8 +164,8 @@ export default function GameBoxes2033() {
                         Ключ - на территории Красных, за ранеными солдатами в остатках металлического ящика на стене, сейф - после 
                         взятия ключа, спускаемся до радиоактивной воды и идем до конца туннеля.
                     </p>
-                    <img src="../../public/boxes/metro2033/17.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/18.jpg" alt="" />
+                    <img src="/boxes/metro2033/17.jpg" alt="" />
+                    <img src="/boxes/metro2033/18.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -179,8 +179,8 @@ export default function GameBoxes2033() {
                         Ключ и сейф находятся почти в конце уровня, справа будет вагон метро. Ключ находится в головном вагоне 
                         метропоезда, а сейф - в последнем вагоне.
                     </p>
-                    <img src="../../public/boxes/metro2033/19.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/20.jpg" alt="" />
+                    <img src="/boxes/metro2033/19.jpg" alt="" />
+                    <img src="/boxes/metro2033/20.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -194,7 +194,7 @@ export default function GameBoxes2033() {
                         После того, как вы сойдете с дрезины, после небольшого коридора будет дверь слева. За ней комната с сейфом и 
                         ключом.
                     </p>
-                    <img src="../../public/boxes/metro2033/21.jpg" alt="" />
+                    <img src="/boxes/metro2033/21.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -208,8 +208,8 @@ export default function GameBoxes2033() {
                         На станции напротив закрытого перехода с надписью "Оружейная", решетчатая дверь, там труп и 3 открытых сейфа, 
                         на стене ключ, в самой оружейной сейф.
                     </p>
-                    <img src="../../public/boxes/metro2033/22.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/23.jpg" alt="" />
+                    <img src="/boxes/metro2033/22.jpg" alt="" />
+                    <img src="/boxes/metro2033/23.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -223,8 +223,8 @@ export default function GameBoxes2033() {
                         Сейф увидите возле костра, после того , как с ребенком на спине дойдете до места, где он говорит, что потолок 
                         слабый, ключ чуть дальше в радиоактивной воде.
                     </p>
-                    <img src="../../public/boxes/metro2033/24.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/25.jpg" alt="" />
+                    <img src="/boxes/metro2033/24.jpg" alt="" />
+                    <img src="/boxes/metro2033/25.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -240,8 +240,8 @@ export default function GameBoxes2033() {
                     <p>
                         Сейф находится на первом этаже Форпоста слева от выхода на Черную станцию.
                     </p>
-                    <img src="../../public/boxes/metro2033/26.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/27.jpg" alt="" />
+                    <img src="/boxes/metro2033/26.jpg" alt="" />
+                    <img src="/boxes/metro2033/27.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -254,8 +254,8 @@ export default function GameBoxes2033() {
                     <p>
                         Сейф находится примерно в середине уровня в комнатке с керосинкой. Ключ - чуть дальше в туннеле с газом.
                     </p>
-                    <img src="../../public/boxes/metro2033/28.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/29.jpg" alt="" />
+                    <img src="/boxes/metro2033/28.jpg" alt="" />
+                    <img src="/boxes/metro2033/29.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -271,8 +271,8 @@ export default function GameBoxes2033() {
                     <p>
                         Ключ - пройти через другой проход из комнаты с сейфами в туннель метро и взять его с щитка за решеткой.
                     </p>
-                    <img src="../../public/boxes/metro2033/30.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/31.jpg" alt="" />
+                    <img src="/boxes/metro2033/30.jpg" alt="" />
+                    <img src="/boxes/metro2033/31.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -289,8 +289,8 @@ export default function GameBoxes2033() {
                         котором будет ключ. Сам сейф находится перед входом в библиотеку (не локацию, а здание на локации Аллея), 
                         слева от памятника Достоевскому, в перевернутом грузовичке.
                     </p>
-                    <img src="../../public/boxes/metro2033/32.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/33.jpg" alt="" />
+                    <img src="/boxes/metro2033/32.jpg" alt="" />
+                    <img src="/boxes/metro2033/33.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -303,8 +303,8 @@ export default function GameBoxes2033() {
                     <p>
                         Сейф находится в библиотеке на первом этаже справа. Ключ - на втором этаже над входом в библиотеку.
                     </p>
-                    <img src="../../public/boxes/metro2033/34.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/35.jpg" alt="" />
+                    <img src="/boxes/metro2033/34.jpg" alt="" />
+                    <img src="/boxes/metro2033/35.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -318,8 +318,8 @@ export default function GameBoxes2033() {
                         Ключ находится в подземелье с Библиотекарем, перед подъемом к архивному хранилищу. Сейф - справа от архивного 
                         хранилища.
                     </p>
-                    <img src="../../public/boxes/metro2033/36.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/37.jpg" alt="" />
+                    <img src="/boxes/metro2033/36.jpg" alt="" />
+                    <img src="/boxes/metro2033/37.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -334,8 +334,8 @@ export default function GameBoxes2033() {
                         попросит понажимать кнопки, запустить электричество. Слева будет комната. В ней в металлическом ящике и будет 
                         ключ.
                     </p>
-                    <img src="../../public/boxes/metro2033/38.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/39.jpg" alt="" />
+                    <img src="/boxes/metro2033/38.jpg" alt="" />
+                    <img src="/boxes/metro2033/39.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -348,8 +348,8 @@ export default function GameBoxes2033() {
                     <p>
                         Сейф и ключ находятся за гермозатвором, где Артем будет сражаться с пауками.
                     </p>
-                    <img src="../../public/boxes/metro2033/40.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/41.jpg" alt="" />
+                    <img src="/boxes/metro2033/40.jpg" alt="" />
+                    <img src="/boxes/metro2033/41.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -363,8 +363,8 @@ export default function GameBoxes2033() {
                         Ключ находится в небольшом помещении слева от входа в центр запуска ракет. Сейф - в центре запуска ракет в 
                         левом дальнем углу на второй полке слева. Остальные сейфы неактивные.
                     </p>
-                    <img src="../../public/boxes/metro2033/42.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/43.jpg" alt="" />
+                    <img src="/boxes/metro2033/42.jpg" alt="" />
+                    <img src="/boxes/metro2033/43.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
@@ -383,8 +383,8 @@ export default function GameBoxes2033() {
                         После взятия ключа, в самой башне на первом этаже, когда Мельник говорит вам идти за ним, вместо этого 
                         повернитесь налево и пройдите пока не упретесь в стену с граффити противогаза.
                     </p>
-                    <img src="../../public/boxes/metro2033/44.jpg" alt="" />
-                    <img src="../../public/boxes/metro2033/45.jpg" alt="" />
+                    <img src="/boxes/metro2033/44.jpg" alt="" />
+                    <img src="/boxes/metro2033/45.jpg" alt="" />
                 </section>
 
                 <hr className="monster-divider" />
