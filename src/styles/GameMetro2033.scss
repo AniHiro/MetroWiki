@@ -83,3 +83,54 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .game-container {
+        padding: 1rem;
+    }
+
+    .hero-slider {
+        max-width: 100%;
+
+        &_media {
+            border-radius: 4px;
+        }
+
+        &__control {
+            font-size: 1.5rem;
+            padding: 0.3rem;
+        }
+    }
+
+    .news, .about {
+        margin: 1rem;
+        h2 {
+            font-size: 1.2rem;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-slider__control {
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+
+    .news, .about {
+        h2 {
+            font-size: 1rem;
+        }
+        h3 {
+            font-size: 0.9rem;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+    }
+}

@@ -87,3 +87,18 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+  .characters-grid {
+    grid-template-columns: 1fr; // в одну колонку
+    gap: 15px;
+  }
+
+  .characters-card {
+    width: 100%; // растянем на всю ширину
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -102,3 +102,56 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 0.5rem 1rem;
+
+        &__logo img {
+            height: 60px;
+        }
+
+        &__nav {
+            position: static;
+            transform: none;
+            flex-direction: column;
+            gap: 0.8rem;
+            width: 100%;
+        }
+
+        &__link {
+            font-size: 1rem;
+        }
+
+        &__submenu {
+            position: static;
+            border-radius: 0;
+            min-width: auto;
+            padding: 0.3rem 0;
+        }
+
+        &__sublink {
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        &__logo img {
+            height: 50px;
+        }
+
+        &__link {
+            font-size: 0.9rem;
+        }
+
+        &__sublink {
+            font-size: 0.8rem;
+        }
+    }
+}
