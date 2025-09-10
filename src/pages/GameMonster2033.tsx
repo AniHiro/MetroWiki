@@ -13,32 +13,26 @@ export default function GameMonster2033() {
     const openImage = (src: string) => setSelectedImage(src);
     const closeImage = () => setSelectedImage(null);
 
-    useEffect(() => {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      let mostVisible: { id: string; ratio: number } | null = null;
-
-      entries.forEach((entry) => {
-        const ratio = entry.intersectionRatio;
-        if (!mostVisible || ratio > mostVisible.ratio) {
-          mostVisible = { id: (entry.target as HTMLElement).id, ratio };
-        }
-      });
-
-      if (mostVisible) {
-        setActiveMonster(mostVisible.id);
-      }
-    },
-    { threshold: 0.2 }
-  );
-
-  const sections = document.querySelectorAll<HTMLElement>(".monster-content");
-  sections.forEach((section) => observer.observe(section));
-
-  return () => {
-    sections.forEach((section) => observer.unobserve(section));
-  };
-    }, []);
+        useEffect(() => {
+            const sections = document.querySelectorAll("section[id]")
+    
+            const observer = new IntersectionObserver(
+                (entries) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            setActiveMonster(entry.target.id);
+                        }
+                    });
+                },
+                { threshold: 0.1}
+            );
+    
+            sections.forEach((s) => observer.observe(s));
+    
+            return () => {
+                sections.forEach((s) => observer.unobserve(s));
+            };
+        }, []);
 
     return (
         <div className="monster-page">
